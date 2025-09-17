@@ -78,5 +78,5 @@ class ProdutoController extends Controller{
             return back()->with('error', "Error ao deletar produto $id");
         }
        
-    }
+    } 
 }
